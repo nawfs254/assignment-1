@@ -232,3 +232,30 @@
 .offerWish>img{
     width: 140px;
 }
+
+/* Running offers section */
+
+.runningOffer{
+    text-align: center;
+    width: 1060px;
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+}
+
+.runningOffer>.title{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.runningOffer>h1{
+    font-size: 72px;
+    font-weight: 900;
+    padding: 30px 0;
+}
+
+.runningOffer>.desc{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 500;
+}
