@@ -259,3 +259,43 @@
     font-size: 20px;
     font-weight: 500;
 }
+
+/* Offer Image Section */
+
+.offerImage{
+    width: 1320px;
+    height: 655px;
+    display: flex;
+    margin: auto;
+    position: relative;
+}
+
+.offerImage .base{
+    width: 1320px;
+    height: 230px;
+    position: absolute;
+    bottom: 0;
+}
+
+.offerImage .model{
+    width: 430px;
+    height: 425px;
+    position: absolute;
+    right: 0;
+}
+
+.offerImage .discount{
+    width: 206px;
+    height: 206px;
+    position: absolute;
+    right: 320px;
+    top: 20%;
+}
+
+.offerImage .surpriseBox{
+    position: absolute;
+    z-index: 1;
+    height: 500px;
+    bottom: 50px;
+    left: 50px;
+}
