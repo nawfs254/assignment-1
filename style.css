@@ -41,7 +41,7 @@
     width: 632px;
     height: 300px;
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 35%;
     z-index: 2;
     text-align: center;
@@ -61,6 +61,8 @@
     font-size: 73px;
     font-weight: 900;
     color: white;
+
+    text-shadow: 10px 10px 10px rgb(54, 54, 54);
 }
 
 /* Offer Section */
@@ -90,6 +92,7 @@
     font-size: 48px;
     font-weight: 700;
     padding: 0 0 50px 0;
+    
 }
 
 .offer>img{
@@ -161,12 +164,25 @@
     margin: 120px auto;
     justify-content: center;
     border-radius: 16px;
+    align-items: center;
 }
 
 .partyDetails>p{
     font-size: 32px;
     font-weight: 600;
     text-align: center;
+}
+
+.partyDetails > button{
+    width: 170px;
+    height: 60px;
+    background-color: #FF0000;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 40px;
+    border: none;
+    border-radius: 8px;
 }
 
 /* More Offers Section */
@@ -348,7 +364,7 @@
     height: 450px;
     width: 424px;
     margin-left: 0 24px 24px 0;
-    transition: transform 0.2ms ease-in-out;
+    transition: transform 0.5ms ease-in-out;
     position: relative;
     
 }
@@ -433,10 +449,9 @@ form>button{
 /* Footer Section */
 footer{
     width: 100vw;
-    height: 610px;
     background-color: black;
     color: white;
-    padding: 80px 0;
+    padding: 150px 0;
     box-sizing: border-box;
 }
 
@@ -511,4 +526,9 @@ hr{
 .copyright{
     font-size: 24px;
     font-weight: 500;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
 }
