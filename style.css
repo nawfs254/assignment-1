@@ -347,4 +347,12 @@
     height: 450px;
     width: 424px;
     margin-left: 0 24px 24px 0;
+    transition: transform 0.2ms ease-in-out;
+    position: relative;
+    
+}
+
+.productImages .prodImg:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
