@@ -1,8 +1,19 @@
+/* Common to all */
 
 *{
     padding: 0;
     margin: 0;
 }
+
+.inter{
+    font-family: 'Inter', sans-serif;
+}
+
+.merryweather{
+    font-family: 'Merriweather', serif;
+}
+
+/* Banner Section */
 
 .banner{
     width: 1320px;
@@ -37,16 +48,46 @@
 
 .bannerText>p{
     color: white;
-    font-family: 'Merriweather', serif;
     font-size: 32px;
     font-weight: 700;
     padding: 20px 0;
 }
 
 .bannerText>h1{
-    font-family: 'Merriweather', serif;
     font-size: 73px;
     font-weight: 900;
     color: white;
+}
 
+/* Offer Section */
+
+.offer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offer>h1{
+    color: #FF0000;
+    padding: 40px 0;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.offer>p{
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.offer>h3{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    padding: 0 0 50px 0;
+}
+
+.offer>img{
+    width: 803px;
 }
