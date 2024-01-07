@@ -429,3 +429,86 @@ form>button{
     color: white;
     border-radius: 0 50px 50px 0;
 }
+
+/* Footer Section */
+footer{
+    width: 100vw;
+    height: 610px;
+    background-color: black;
+    color: white;
+    padding: 80px 0;
+    box-sizing: border-box;
+}
+
+footer .sec1{
+    width: 1320px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.sec1 > .address{
+    font-size: 24px;
+    font-weight: 500;
+    width: 400px;
+    line-height: 40px;
+}
+
+.sec1 > .contact{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.contact > span{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.icon > img {
+    padding-right: 20px;
+}
+
+#website{
+    text-decoration: none;
+    color: white;
+}
+
+/* hr style */
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 40px auto;
+    width: 1320px;
+    display: flex;
+}
+
+/* footer icons */
+
+.icons{
+    width: 1320px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.icons>a{
+    padding: 0 24px;
+}
+
+/* copyights */
+.copyright{
+    width: 1320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright{
+    font-size: 24px;
+    font-weight: 500;
+}
