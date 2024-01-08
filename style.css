@@ -24,6 +24,7 @@
     height: 600px;
     display: flex;
     margin: 40px auto;
+    position: relative;
 }
 
 .bannerBg{
@@ -41,8 +42,8 @@
     width: 632px;
     height: 300px;
     position: absolute;
-    top: 20%;
-    left: 35%;
+    top: 25%;
+    left: 25%;
     z-index: 2;
     text-align: center;
     display: flex;
@@ -53,7 +54,7 @@
 .bannerText>p{
     color: white;
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 400;
     padding: 20px 0;
 }
 
@@ -135,6 +136,7 @@
     font-weight: 900;
     letter-spacing: 8px;
     color: white;
+    line-height: 88px;
 }
 
 .invitationText>p{
@@ -142,6 +144,7 @@
     padding: 24px 0;
     font-size: 18px;
     font-weight: 400;
+    line-height: 30px;
 }
 
 .invitationText>button{
@@ -151,6 +154,16 @@
     font-size: 20px;
     font-weight: 700;
     color: white;
+}
+
+/* Invitation Image overlay  */
+
+.invitationVector{
+    position: absolute;
+    z-index: 3;
+    right: 10%;
+    top: 10%;
+    mix-blend-mode: ;
 }
 
 /* Party Details */
@@ -171,6 +184,7 @@
     font-size: 32px;
     font-weight: 600;
     text-align: center;
+    padding: 10px;
 }
 
 .partyDetails > button{
@@ -215,6 +229,7 @@
     color: rgba(7, 2, 17, 0.60); 
     font-size: 20px;
     font-weight: 400;
+    line-height: 32px;
 }
 
 .moreOffers>.offerImg{
@@ -234,6 +249,10 @@
 
 .moreOffers>.offerWish{
     width: 280px;
+    color: rgba(7, 2, 17, 0.60); 
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
 }
 
 .offerWish>h3{
@@ -274,6 +293,7 @@
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 500;
+    line-height: 32px;
 }
 
 /* Offer Image Section */
@@ -341,6 +361,7 @@
     width: 900px;
     font-size: 20px;
     font-weight: 400;
+    line-height: 32px;
 }
 
 /* Images in Product Section */
@@ -408,6 +429,7 @@
     font-size: 20px;
     font-weight: 400;
     width: 900px;
+    line-height: 32px;
 }
 
 form{
@@ -512,7 +534,7 @@ hr{
 }
 
 .icons>a{
-    padding: 0 24px;
+    padding: 0 20px;
 }
 
 /* copyights */
